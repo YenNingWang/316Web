@@ -1,0 +1,27 @@
+/* 跟設定無關的在CSS一定要註解 Ctrl + / */
+
+/* CSS選擇器 */
+.important-title {
+    color: rgb(42, 158, 133);
+    /* text-align: center; */
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.shadow {
+    /* text-shadow: x y blur color; */
+    text-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+    transition: all .3s ease;
+}
+
+/* 接觸到滑鼠游標後的狀態 */
+.shadow:hover {
+    /* text-shadow: x y blur color; */
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.9);
+}
